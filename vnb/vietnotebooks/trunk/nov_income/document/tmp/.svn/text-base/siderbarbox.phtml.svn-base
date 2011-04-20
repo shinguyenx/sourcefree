@@ -1,0 +1,15 @@
+<!-- Box -->
+<div class="box">
+	
+	<!-- Box Head -->
+	<div class="box-head">
+		<h2>Thanh Công Cụ</h2>
+	</div>
+	<!-- End Box Head-->
+	
+	<div class="box-content">
+		<a href="/income/register" class="add-button" id="register-khachhang" ><span>Thêm Khách Hàng</span></a>
+		<div class="cl">&nbsp;</div>
+	</div>
+</div>
+<!-- End Box -->

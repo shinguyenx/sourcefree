@@ -1,0 +1,25 @@
+<!-- Box -->
+<div class="box">
+
+	<!-- Box Head -->
+	<div class="box-head">
+		<h2 class="left">Danh sách sản phẩm</h2>
+	</div>
+	<!-- End Box Head -->	
+
+	<!-- Table -->
+	<br/>
+	<pre style="font-size:13px;color:#ba4c32;">
+		Sản phẩm quản lý chủ tiệm may . Tính chính xác và nhanh gọn trong việc quản lý hóa đơn xuất nhập
+	thu chi từng tháng của tiệm may 
+			
+		<b>shinguyenxuan</b>
+	</pre>
+	
+	
+	<br>
+	
+	<?php Zincome_Static::getDaysMonth(3,2011);?>
+	<!-- Table -->
+</div>
+<!-- End Box -->

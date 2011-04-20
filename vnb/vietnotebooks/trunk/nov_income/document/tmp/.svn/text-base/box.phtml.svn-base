@@ -1,0 +1,78 @@
+<!-- Box -->
+<div class="box">
+
+	<!-- Box Head -->
+	<div class="box-head">
+		<h2 class="left">Danh sách khách hàng</h2>
+		<div class="right">
+			<label>Tìm kiếm </label>
+			<input type="text" class="field small-field" />
+			<input type="submit" class="button" value="Tìm" />
+		</div>
+	</div>
+	<!-- End Box Head -->	
+
+	<!-- Table -->
+	<div class="table">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<th width="13"><input type="checkbox" class="checkbox" /></th>
+				<th>Id</th>
+				<th>Tên khách hàng</th>
+				<th>Số điện thoại</th>
+				<th>Địa chỉ</th>
+				<th>Sổ nợ</th>
+				<th width="110" class="ac">Content Control</th>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox" /></td>
+				<td><h3><a href="#">1</a></h3></td>
+				<td>Nguyễn Xuân Hoánh</td>
+				<td>0914783789</td>
+				<td><input type="submit" class="button xemthongtin" value="Xem thông tin" /></td>
+				<td><input type="submit" class="button xemsono" value="Xem sổ nợ" style="background:#efca4b;color:#af472e;" /></td>
+				<td><a href="#" class="ico del">Delete</a><a href="#" class="ico edit">Edit</a></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox" /></td>
+				<td><h3><a href="#">2</a></h3></td>
+				<td>Nguyễn Xuân Hoánh</td>
+				<td>0914783789</td>
+				<td><input type="submit" class="button xemthongtin" value="Xem thông tin" /></td>
+				<td><input type="submit" class="button xemsono" value="Xem sổ nợ" style="background:#efca4b;color:#af472e;" /></td>
+				<td><a href="#" class="ico del">Delete</a><a href="#" class="ico edit">Edit</a></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox" /></td>
+				<td><h3><a href="#">3</a></h3></td>
+				<td>Nguyễn Xuân Hoánh</td>
+				<td>0914783789</td>
+				<td><input type="submit" class="button xemthongtin" value="Xem thông tin" /></td>
+				<td><input type="submit" class="button xemsono" value="Xem sổ nợ" style="background:#efca4b;color:#af472e;" /></td>
+				<td><a href="#" class="ico del">Delete</a><a href="#" class="ico edit">Edit</a></td>
+			</tr>
+		</table>
+		
+		
+		<!-- Pagging -->
+		<div class="pagging">
+			<div class="left">Đang xem 1-12 của 44</div>
+			<div class="right">
+				<a href="#">Trước</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">245</a>
+				<span>...</span>
+				<a href="#">Tiếp</a>
+				<a href="#">Xem tất cả</a>
+			</div>
+		</div>
+		<!-- End Pagging -->
+		
+	</div>
+	<!-- Table -->
+	
+</div>
+<!-- End Box -->
