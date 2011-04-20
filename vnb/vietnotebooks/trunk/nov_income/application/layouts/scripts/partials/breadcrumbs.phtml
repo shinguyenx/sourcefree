@@ -1,0 +1,26 @@
+<?php if (sizeof($this->pages)==0) return ; ?>
+
+<div class="breadcrumbs">
+<?php
+
+echo '<ul id="crumbs" style="background:white;">'; 
+for ($i = 0, $size = sizeof($this->pages); $i < $size; $i++) {
+    // @see Zend_Navigation_Page_Mvc
+    $url   = $this->pages[$i]->getHref();
+    $label = $this->pages[$i]->getLabel();
+    if ($i != ($size - 1)) {
+        echo '<li><a href="'.$url.'">'.$label.'</a></li>';
+    } else {
+        if($url == "/income/registerfail")
+             echo '<li><a style="color:red;font-weight:bold"  href="'.$url.'">'.$label.'</a></li>';
+        else
+        if($url == "/income/registerfinish")
+             echo '<li><a style="color:green;font-weight:bold"  href="#">'.$label.'</a></li>';
+        else
+        echo '<li><a href="'.$url.'">'.$label.'</a></li>';
+    }
+}
+
+echo '</ul>'; 
+?>
+</div> 
