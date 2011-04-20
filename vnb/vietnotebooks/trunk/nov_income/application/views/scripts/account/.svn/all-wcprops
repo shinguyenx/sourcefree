@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account
+END
+register.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/register.phtml
+END
+information.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/information.phtml
+END
+registerfinish.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/registerfinish.phtml
+END
+index.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/index.phtml
+END
+login.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/login.phtml
+END
+loginfinish.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/loginfinish.phtml
+END
+logout.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/vietnotebooks/!svn/ver/21/trunk/nov_income/application/views/scripts/account/logout.phtml
+END

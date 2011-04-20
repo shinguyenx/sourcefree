@@ -1,0 +1,6 @@
+<!-- Message OK -->		
+<div class="msg msg-ok">
+	<p><strong>Tạo khách hàng thành công, click vào <a href='/income/index'><font color="red">đây</font></a> để vào thống kê trong ngày !</strong></p>
+	<a href="#" class="close" original-title="Xóa thông báo này !">close</a>
+</div>
+<!-- End Message OK -->	

@@ -1,0 +1,62 @@
+<!-- Box -->
+<div class="box">
+
+	<!-- Box Head -->
+	<div class="box-head">
+		<h2 class="left">Danh sách khách hàng</h2>
+		<div class="right">
+			<label>Tìm kiếm </label>
+			<input type="text" class="field small-field" />
+			<input type="submit" class="button" value="Tìm" />
+			<form action="/administrator/registercustomer" method="get">
+			</form>
+		</div>
+	</div>
+	<!-- End Box Head -->	
+
+	<!-- Table -->
+	<div class="table">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<th width="10px">Id</th>
+				<th>Tên khách hàng</th>
+				<th width="80px">Số điện thoại</th>
+				<th width="40px">Địa chỉ</th>
+				<th width="40px">Sổ nợ</th>
+				<th width="40px">Ghi Sổ</th>
+			</tr>
+			<?php foreach ($this->listUser as $value){
+			$info = (unserialize($value->zin_user_description));
+			    ?>
+			<tr>
+				<td><h3><a href="#"><?= $value->zin_user_id ?></a></h3></td>
+				<td><font size=2><b><?= $value->zin_user_nickname ?></b></font></td>
+				<td><?= $info->zin_user_cellphone ?></td>
+				<td><a class="changestatus" original-title="Thông tin <?= $value->zin_user_nickname ?>" href="/administrator/updatecustomer/customer/<?= $value->zin_user_id ?>"><img src="/css/images/my-account.png" /></a></td>
+				<td><a href="/income/showhistory/id/<?= $value->zin_user_id ?>" class="edit" original-title="Xem sổ nợ <?= $value->zin_user_nickname ?>"><img  src="/css/images/deal.png" /></a></td>
+				<td><a href="/administrator/addhistory/id/<?= $value->zin_user_id ?>" class="edit" original-title="Ghi Nợ !" ><img src="/css/images/pencil.png" /></a></td>
+			</tr>
+			<?php }?>
+		</table>
+		
+		<!-- Pagging -->
+		<div class="pagging">
+			<div class="left">Đang xem 1-12 của 44</div>
+			<div class="right">
+				<a href="#">Trước</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">245</a>
+				<span>...</span>
+				<a href="#">Tiếp</a>
+				<a href="#">Xem tất cả</a>
+			</div>
+		</div>
+		<!-- End Pagging -->
+		
+	</div>
+	<!-- Table -->
+</div>
+<!-- End Box -->
