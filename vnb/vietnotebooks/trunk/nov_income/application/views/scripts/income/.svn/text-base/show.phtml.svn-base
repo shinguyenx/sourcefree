@@ -1,2 +1,0 @@
-<br /><br /><center>View script for controller <b>Income</b> and script/action name <b>show</b>
-<?php echo $this->formtext('name');?></center>

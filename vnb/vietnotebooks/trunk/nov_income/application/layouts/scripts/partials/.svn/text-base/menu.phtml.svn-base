@@ -1,7 +1,0 @@
-<ul>
-	<li><a href="/income/index" id="trangchu"><span>Thống Kê</span></a></li>
-	<li><a href="/administrator/customer" id="khachhang"><span>Khách Hàng</span></a></li>
-	<li><a href="/administrator/product" id="sanpham"><span>Sản Phẩm</span></a></li>
-	<li><a href="/administrator/revenue" id="tongket"><span>Tổng Kết</span></a></li>
-	<li><a href="/income/aboutus" id="aboutus"><span>About Us</span></a></li>
-</ul>
